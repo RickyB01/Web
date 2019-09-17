@@ -1,0 +1,83 @@
+/* write your CSS rules here or in the HTML document */
+
+/* task 1 */
+
+
+div.main-container {
+
+width: 80;
+margin: auto;
+}
+
+/* task 2 */
+
+h2{
+    background-color: #cccccc;
+    color: blue
+}
+
+
+
+/* task 3 */
+p#paragraph2{ 
+
+	font-family: "Comic Sans MS","Comic Sans","cursive";
+	font-size:20pt; 
+}
+/* task 4 */
+
+span.on{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #5cb85c
+    
+}
+
+/* task 5 */
+
+table{
+
+    background-image:url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX23025384.jpg");
+    background-repeat: repeat-y;
+    color: #2f4f4f ;
+
+}
+/* task 6 */
+
+thead, tfoot{
+	background-color: rgba(255, 255, 0, 0.6);
+	font-style: italic;
+}
+
+
+/* task 7 */
+
+p:hover, a:hover {
+    background-color:#0000FF
+  }
+/* task 8 */
+
+ul {list-style-type: square;}
+
+ol {list-style-type: lower-alpha;}
+
+
+/* task 9 */
+
+footer{
+
+    text-align: center;
+}
+
+
+/******************************************************************** 
+ I declare that my assignment is wholly my own work in accordance with Seneca Academic Policy. 
+ No part of this assignment has been copied manually or electronically from any other source (including web sites)
+  except for the information supplied by the WEB222 instructors and / or made available in this assignment for my use.  
+  I also declare that no part of this assignment has been distributed to other students. 
+
+ Name: Jatinder Ricky Badyal
+ Dated:  2019-03-24 
+ 
+ ********************************************************************/ 
+ 
