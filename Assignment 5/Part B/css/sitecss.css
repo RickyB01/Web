@@ -1,0 +1,40 @@
+
+body{
+
+    background-image:url("/PartB/Images/background.jpg");
+    background-repeat: repeat-y;
+    color: lightblue ;    
+}
+
+
+
+main-container {
+	max-width: 960px;
+	margin: 0px auto 0px;
+}
+
+.main-container nav {
+    
+	width: 30%;
+	float: left;
+}
+
+.main-container .main {
+	width: 70%;
+	float: right;
+}
+
+.main-container header {
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+.main-container header h1 {
+
+	width: 70%;
+	font-size: 24px;
+	float: right;
+	text-align: left;
+	margin-top: 10px;
+}
+
