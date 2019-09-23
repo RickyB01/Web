@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Jatinder Ricky Badyal</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <script src="info.js"></script>
+</head>
+<body>
+    <div id="area">
+    <header>
+        <div id="header">
+            <h1 id="head">
+                Student Registration
+            </h1>
+            
+        </div>
+    </header>
+    
+<div class="sidenav">
+    
+    <a href="honesty.html">Welcome Page</a>
+    <br>
+    <a id="current" href="info.html">Student Registration Forum</a>
+  </div>
+        <div class="main">
+            <!--Form-->
+            <form id="signup" name="signup" method="POST" action="https://httpbin.org/post" onsubmit="return validate()">
+                <br />
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="fname"> First Name: </label><br>
+                    <input type="text" pattern="[A-Za-z ]{1,}" onchange="anyErrors(this)" name="firstname" class="fields" id="firstname" tabindex="1" required><br>
+                    <label for="lname"> Last Name: </label><br>
+                    <input type="text" pattern="[A-Za-z ]{1,}" onchange="anyErrors(this)" name="lastname" class="fields" id="lastname" tabindex="2" required><br>
+                    <label for="Education Level"> Education Level: </label><br>
+                    <select name="Education Level" class="fields" id="Education Level" tabindex="5">
+                        <option value="TC" selected>Technical Diploma</option>
+                        <option value="CD">College Diploma</option>
+                        <option value="BD">Bachelor's Degree</option>
+                        <option value="MD">Masters Degree</option>
+                        <option value="O"> Other</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="Education Status"> Education Status:</label><br>
+                    <input type="radio" name="Education Status" value="grad"> Graduated<br>
+                    <input type="radio" name="Education Status" value="Enrolled">Currently Enrolled<br>
+                    <input type="radio" name="Education Status" value="DG">Did Not Graduated<br>
+                    <br>
+                    <label for="email"> Email Address: </label><br>
+                    <input type="email" placeholder="name@host.com" onchange="anyErrors(this)" name="email" class="fields" id="email" tabindex="10" required><br>
+                </fieldset>
+                <br />
+                <fieldset>
+                    <legend>Account Information</legend>
+                    <label for="username"> Username: </label><br>
+                    <input type="text" pattern="[A-Za-z].{5,}" onchange="anyErrors(this)" name="username" class="fields" id="username" tabindex="11" required><br>
+                    <label for="pass"> Password: </label><br>
+                    <input type="password" onchange="anyErrors(this)" name="pass" id="pass" class="fields" tabindex="12" required><br>
+                    <label for="repass"> Retype Password: </label><br>
+                    <input type="password" onchange="anyErrors(this)" name="repass" id="repass" class="fields" tabindex="13" required><br>
+                </fieldset>               
+                <br />
+                <div class="button">
+                    <input id="submit" type="submit" tabindex="14">
+                    <input id="reset" type="reset" tabindex="15">
+                </div>
+            </form>
+    </div>
+    <!--Footer-->
+    <footer>
+        <div class="footer">
+            <p>Jatinder Ricky Badyal 2019</p>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>

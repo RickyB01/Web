@@ -1,0 +1,94 @@
+html{
+    margin: auto;
+    background:whitesmoke;
+    max-width: 1400px;
+    overflow-x:hidden;
+    
+    
+
+}
+
+/*body{
+    border: dotted 1px lightblue;
+    
+}*/
+
+header{
+    margin-left:200px;
+    color: (0,62,126);
+    width: 50%;
+    height:50%;
+    border-bottom: double 1px whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    border-block-end-width: 2px;
+   
+}
+
+
+
+section{
+    float:left;
+    width:60%;
+    min-height: 500px;
+    margin:10px;
+    
+}
+.sidenav {
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 120px;
+    left: 10px;
+    background: clear;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+   
+  }
+  
+  .sidenav a:hover {
+    color: darkturquoise;
+  }
+
+ 
+  
+
+  .main {
+    margin-left: 160px; 
+    font-size: 28px; 
+    padding: 0px 10px;
+
+  }
+
+
+#submit, #reset{
+    align-content: center;
+    margin: 10px auto;
+    width: 150px;
+    height: 40px;
+    color: black;
+    background-color: darkgray;
+    border-style: outset;
+    border-color: darkgray;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 4px;
+}
+
+div.button {
+    text-align: center;
+}
+
+footer{
+    margin-left: 175px;
+    text-emphasis: none;
+    text-align: center;
+    color: #003E7E;
+}
