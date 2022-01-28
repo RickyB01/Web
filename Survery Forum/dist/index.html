@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survery Forum</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<header>
+  <h1 id="title"> My Survey </h1>
+  <p id="description"> Please take my survey </p>
+</header>
+<br>
+<body>
+  <form id="survey-form" action="nowhere" >
+  <div class="form-name">
+  <label id="name-label" for="name"> Full  Name</label>
+    <input 
+           type ="text" 
+           name="name"
+           class="form-name"
+           id="name" 
+           required
+           placeholder="enter your full name" />
+    </div>
+    <br>
+    <div class="email">
+      <label id="email-label" for="emal"> Email </label>
+      <input 
+             type="email" 
+             name="email"
+             id="email"
+             pattern=".+@gmail.com" size="30"
+             required
+             placeholder="enter your email"/>
+    </div>
+    <br>
+    <div class="number-age">
+      <label id="number-label" for ="number"> Age </label>
+      <input 
+             type="number"
+             name="age"
+             id="number"
+             min=1 
+             max=100
+             placeholder="Enter your age"
+             />
+ <br>
+ <br>
+      <label class="dropdown"> Highest Level of Education</label>
+ <label>
+   <select id ="dropdown">
+     <option value="college"> College </option>
+     <option value="University "> University </option>
+     <option value= "HighSchool"> Highschool</option>
+     <option value="Other"> Other</option>
+   </select>
+ </label>
+ <br>
+ <br>
+ <label class="radio"> Career Choice </label><br>
+      <input type="radio" name="Work" value="Accountant">Accountant<br>
+      <input type="radio" name="Work" value="Programmer"> Programmer<br>
+      <input type="radio" name="Work" value="law enforcement"> law enforcement<br>
+      <input type="radio" name="Work" value="Doctor">Doctor<br>
+      <input type="radio" name="Work" value="Other">Other<br>
+ </label>
+ <br>
+    <label class="checkbox"> City Choice </label>
+    <input type="checkbox" name="City" value="Toronto"> Toronto <br>
+    <input type="checkbox" name="City" value="New York">  New York <br>
+    <input type="checkbox" name="City" value="London"> London <br>
+    <input type="checkbox" name="City" value="Vancouver"> Vancouver <br>
+    <input type="checkbox" name="City" value="Other"> Other<br>
+   <div class="form-group">
+      <p>Please leave any comments or questions below...</p>
+      <textarea id="comments"
+        class="input-textarea"
+                type="textarea"
+                name="comments"
+                placeholder="Leave comments here">
+</textarea></div></section>  
+ <br>
+ <div>
+      <button id="submit" class="submit-button">
+        <input type="submit"
+               name="submit"
+       </button>
+ </div>
+  
+  
+   
+   
+     
+      
+    
+</body>
+<!-- partial -->
+  
+</body>
+</html>
